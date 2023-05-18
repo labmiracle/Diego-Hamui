@@ -1,8 +1,12 @@
 //Ejercicio Nº7 - Practica js
 
 let count = 0;
+const validCards = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'];
 
 function cc(card) {
+    if (!validCards.includes(card)) {
+        return "Invalid card";
+    }
     switch (card) {
         case 2:
         case 3:
