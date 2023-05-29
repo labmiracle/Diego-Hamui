@@ -1,4 +1,4 @@
-//Ejercicio Nº10 - Practica js
+//Ejercicio Nº11 - Practica js
 
 function onlyUniques(...argts) {
     return [...new Set(argts)];
