@@ -39,7 +39,7 @@ function adivinarNumero(nivel) {
             }
 
         } else {
-            prompt(`Error: Ingresa un número entero válido y que sea del 1 al ${level}`);
+            console.log(`Error: Ingresa un número entero válido y que sea del 1 al ${level}`);
         }
     }
 
